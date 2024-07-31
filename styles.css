@@ -1,0 +1,205 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+.first-block,
+.quote {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  background-color: lightblue;
+  color: white;
+}
+
+.first-block {
+  display: flex;
+  padding-bottom: 200px;
+  background-color: lightblue;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  height: 200px;
+}
+.left-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.imagem1 {
+  height: 100px;
+  width: 100px;
+}
+.imagem2 {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(33, 113, 163);
+  border: solid 10px white;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bolder;
+  
+}
+
+p {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+p2 {
+  font-size: 18px;
+}
+
+button {
+  display: flex;
+  border: none;
+  width: 120px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgb(32, 17, 167);
+  color: white;
+  padding: 10px 100 px;
+}
+.segundo-titulo {
+  font-size: 36px;
+  font-weight: bolder;
+  padding-bottom: 36px;
+  text-align: center;
+  background-color: blue;
+}
+
+.guerreiros {
+  display: flex;
+  gap: 52px;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: blue;
+  text-align: center;
+  color: white;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.texto {
+  display: flex;
+  gap: 52px;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: blue;
+  text-align: center;
+  color: white;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.text {
+  display: flex;
+  gap: 52px;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: blue;
+  text-align: center;
+  color: white;
+  border: solid 3px white;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.imagem-texto {
+  display: flex;
+  flex-direction: column;
+}
+
+.guerreiro {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  border: solid 3px white;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  height: 400px;
+  font-size: 36px;
+  background-color: #0000ff77;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote-text {
+  text-align: left;
+  font-size: 36px;
+}
+
+.quote-autor {
+  font-size: 28px;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+.last-block {
+  height: 300px;
+  background-color: #135d7566;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inscricao {
+  display: flex;
+  background-color: #2f14a8;
+  padding: 50px;
+  border-radius: 30px;
+  color: white;
+  font-size: 32px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 400px;
+}
+
+.inscreva-se {
+  background-color: #2f14a8;
+  border: solid 1px;
+  border-radius: 30px;
+  border-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+   }
+ 
+   a:hover {
+    color: orangered;
+}
+footer {
+  display: flex;
+  background-color: gray;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  color: white;
+}
