@@ -170,12 +170,13 @@ button {
   display: flex;
   background-color: #2f14a8;
   padding: 50px;
-  border-radius: 30px;
+  border-radius: 20px;
   color: white;
+  height: 30px;
   font-size: 32px;
   align-items: center;
   justify-content: space-between;
-  gap: 400px;
+  gap: 300px;
 }
 
 .inscreva-se {
