@@ -1,6 +1,8 @@
 body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   display: flex;
   flex-direction: column;
+  margin: 0px;
 }
 
 header,
@@ -13,25 +15,31 @@ header,
 header {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   background-color: lightblue;
   color: white;
+  flex-wrap: wrap;
 }
 
 .first-block {
   display: flex;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   background-color: lightblue;
   justify-content: space-between;
   align-items: center;
-  text-align: left;
-  height: 200px;
+  text-align:left;
+}
+
+.paragrafo1 {
+  padding-bottom: -50px;
+  font-size: 40px;
+  font-weight: bolder;
 }
 .left-content {
   display: flex;
   flex-direction: column;
-  width: 50%;
   justify-content: space-between;
+  
 }
 
 .imagem1 {
@@ -39,10 +47,11 @@ header {
   width: 100px;
 }
 .imagem2 {
-  height: 300px;
-  width: 400px;
+  height: 400px;
+  width: 800px;
   background-color: rgb(33, 113, 163);
-  border: solid 10px white;
+  border: solid 5px white;
+  
 }
 
 ul {
@@ -52,16 +61,8 @@ ul {
   list-style-type: none;
   font-size: 20px;
   font-weight: bolder;
+  flex-wrap: nowrap;
   
-}
-
-p {
-  font-size: 48px;
-  font-weight: bolder;
-}
-
-p2 {
-  font-size: 18px;
 }
 
 button {
@@ -76,12 +77,18 @@ button {
   color: white;
   padding: 10px 100 px;
 }
+button:hover {
+  background-color: orangered;
+}
 .segundo-titulo {
+  padding-top: 50px;
   font-size: 36px;
   font-weight: bolder;
   padding-bottom: 36px;
   text-align: center;
   background-color: blue;
+  color: white;
+  text-decoration: underline;
 }
 
 .guerreiros {
@@ -96,18 +103,9 @@ button {
   align-items: center;
   padding-bottom: 30px;
 }
-.texto {
-  display: flex;
-  gap: 52px;
-  text-align: center;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: blue;
-  text-align: center;
-  color: white;
-  align-items: center;
-  padding-bottom: 30px;
-}
+.guerreiro { border: solid;
+border-radius: 30px;}
+
 .text {
   display: flex;
   gap: 52px;
@@ -116,32 +114,15 @@ button {
   background-color: blue;
   text-align: center;
   color: white;
-  border: solid 3px white;
-  border-radius: 12px;
   justify-content: center;
   align-items: center;
   width: 200px;
-}
-
-.imagem-texto {
-  display: flex;
-  flex-direction: column;
-}
-
-.guerreiro {
-  width: 200px;
-  display: flex;
-  flex-direction: column;
-  border: solid 3px white;
-  border-radius: 12px;
-  justify-content: center;
-  align-items: center;
 }
 
 .quote {
   height: 400px;
   font-size: 36px;
-  background-color: #0000ff77;
+  background-color: lightblue;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -160,7 +141,7 @@ button {
 }
 .last-block {
   height: 300px;
-  background-color: #135d7566;
+  background-color: blue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,39 +149,38 @@ button {
 
 .inscricao {
   display: flex;
-  background-color: #2f14a8;
+  background-color: lightblue;
   padding: 50px;
-  border-radius: 20px;
-  color: white;
+  border-radius: 50px;
+  color: black;
+  font-weight: bolder;
   height: 30px;
-  font-size: 32px;
+  font-size: 20px;
   align-items: center;
   justify-content: space-between;
-  gap: 300px;
+  width: 700px;
 }
 
 .inscreva-se {
-  background-color: #2f14a8;
-  border: solid 1px;
-  border-radius: 30px;
-  border-color: white;
+  background-color: blue;
+  border-radius: 50px;
 }
 
 a {
   text-decoration: none;
   color: black;
-   }
- 
-   a:hover {
-    color: orangered;
+}
+
+a:hover {
+  color: #ff4500;
 }
 footer {
   display: flex;
-  background-color: gray;
+  background-color: #0000ff55;
   height: 50px;
   text-align: center;
   align-items: center;
   justify-content: center;
   font-weight: bolder;
-  color: white;
+  color: black;
 }
